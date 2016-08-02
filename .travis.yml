@@ -9,4 +9,4 @@ deploy:
   file: "${RELEASE_FILE}"
   api_key: "${OAUTH_KEY}"
   on:
-    repo: MinecraftServerWrapper/MSW-API
+    repo: "${REPO_OWNER}/${REPO}"
