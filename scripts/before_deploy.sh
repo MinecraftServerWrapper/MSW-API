@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-export REPO_OWNER="duncpro"
-export REPO="MSW-API-Bleeding"
+export REPO_OWNER="MinecraftSeverWrapper"
+export REPO="MSW-API"
 
 # Locate newly created jar
 export RELEASE_FILE=$(ls target/msw-api-*.jar)

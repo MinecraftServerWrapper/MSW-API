@@ -6,7 +6,7 @@ before_deploy: bash scripts/before_deploy.sh
 after_deploy: bash scripts/after_deploy.sh
 deploy:
   provider: releases
-  file: $RELEASE_FILE
-  api_key: $OAUTH_KEY
+  file: "${RELEASE_FILE}"
+  api_key: "${OAUTH_KEY}"
   on:
     repo: MinecraftServerWrapper/MSW-API
