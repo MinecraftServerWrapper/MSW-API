@@ -5,8 +5,6 @@
     <groupId>com.duncpro.msw</groupId>
     <artifactId>msw-api</artifactId>
     <version>beta-1.0</version>
-    <url>https://duncpro.github.io/MSW-API-Bleeding</url>
-
     <dependencies>
         <dependency>
             <groupId>javax.json</groupId>

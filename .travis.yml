@@ -1,5 +1,6 @@
 langauge: java
 sudo: true
+script: bash scripts/build.sh
 before_install: bash scripts/before_install.sh
 before_deploy: bash scripts/before_deploy.sh
 after_deploy: bash scripts/after_deploy.sh
